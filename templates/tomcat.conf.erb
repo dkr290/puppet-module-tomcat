@@ -1,0 +1,28 @@
+TOMCAT_CFG_LOADED="1"
+
+
+JAVA_HOME=<%= @java_home %> 
+JAVA_OPTS="-Xms<%= @xms %> -Xmx<%= @xmx %> -XX:MaxPermSize=<%= @maxperm_size %>"
+
+CATALINA_BASE=<%= @catalina_base %>
+CATALINA_HOME=<%= @catalina_home %>
+JASPER_HOME=<%= @jasper_home %>
+CATALINA_TMPDIR=<%= @catalina_tmpdir %>
+
+
+
+
+TOMCAT_USER=<%= @owner %>
+
+
+
+SECURITY_MANAGER="false"
+
+
+SHUTDOWN_WAIT=<%= @shutdown_wait %>
+
+
+SHUTDOWN_VERBOSE="false"
+
+
+CATALINA_PID=<%= @catalina_pid %>
